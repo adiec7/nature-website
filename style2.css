@@ -1,0 +1,58 @@
+body {
+	background-color: lightblue;
+	background-size: cover;
+	background-image-opacity: .10;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	/*font-size: 3em;*/
+	text-transform: capitalize;
+	border-bottom: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px black;
+	background: turquoise;
+	cursor: pointer;
+
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 5px;
+	transition: all 5s;
+	cursor: progress;
+}
+img:hover {
+	transform: scale(1.1);
+}
+li {
+	float: right;
+	margin: 10px;
+	text-decoration: none;
+	display: block;
+	text-transform: capitalize;
+	border-bottom: 2px solid pink;
+	box-shadow: 4px 4px 5px black;
+	transition: all 1s;
+}
+a:hover {
+	transform: scale(1.1);
+	color: gold;
+	background: turquoise;
+
+}
+footer p{
+	text-align: center;
+	text-transform: uppercase;
+	 padding: 20px;
+	margin-top:20px;
+	color: #ffffff;
+	background-color: midnightblue;
+
+}
